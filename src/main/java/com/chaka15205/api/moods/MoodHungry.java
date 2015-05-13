@@ -1,4 +1,4 @@
 package com.chaka15205.api.moods;
 
-public class Mood {
+public class MoodHungry {
 }
