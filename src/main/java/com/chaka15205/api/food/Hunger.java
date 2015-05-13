@@ -1,4 +1,4 @@
-package com.chaka15205.api.hunger;
+package com.chaka15205.api.food;
 
 public class Hunger {
 

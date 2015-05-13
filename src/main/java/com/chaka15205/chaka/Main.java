@@ -12,9 +12,12 @@ public class Main {
     }
 
     public void main(String[] args) {
-
-        if (chaka.getMood() == MoodType.HUNGRY) {
-            chaka.feed(20);
+        if (chaka.getHunger() <= 15) {
+            chaka.setMood(MoodType.HUNGRY);
+        } else if (chaka.getHunger() <= 10) {
+            chaka.setMood(MoodType.HANGRY);
         }
     }
+
+
 }
